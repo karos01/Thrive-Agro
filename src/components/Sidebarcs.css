@@ -1,0 +1,42 @@
+.sidebar {
+    padding-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* position: absolute; */
+    gap: 20px;
+    width: 300px;
+    height: 100%;
+    background-color: #9e6828;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sideitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    height: 80px;
+    /* border: 2px solid lightgray; */
+    width: 100%;
+    text-align: center;
+    padding-block: 20px;
+    /* border-radius: 10px; */
+}
+
+.active {
+    background-color: #432f26;
+
+}
+
+.active a {
+    color: white;
+
+}

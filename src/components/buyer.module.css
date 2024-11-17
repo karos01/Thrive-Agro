@@ -1,0 +1,64 @@
+.buyerPage {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/images/background.jpg'); /* Replace with your image path */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; /* Make the buyer page container a flex container */
+  flex-direction: column; /* Maintain vertical layout for overall content */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 50px;
+  color: white;
+}
+.buyerPage .farmcard{
+  display: flex;
+  flex-direction: row;
+}
+.buyerPage h1 {
+  margin: 10px 0;
+  text-align: center; /* Maintain centering */
+  font-size: xx-large;
+}
+
+.buyerPage .cardContainer {
+  display: flex; /* Make the card container a flex container */
+  flex-direction: row; /* Arrange cards horizontally */
+  justify-content: center; /* Center cards horizontally */
+  width: 100%; /* Span the full width of the buyer page */
+}
+
+.buyerPage .card {
+  background-color: #9e6828; /* Semi-transparent black background */
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px; /* Set a fixed width for the cards */
+}
+
+.buyerPage .card img {
+  margin-bottom: 10px;
+}
+
+.buyerPage .card h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: large;
+  
+}
+
+.buyerPage .card button {
+  background-color: #a9a9a9; /* Blue button color */
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
